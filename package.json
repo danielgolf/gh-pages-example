@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tailwindcss build src/style.css -o src/style.compiled.css",
+    "build": "tailwindcss build style.css -o src/style.compiled.css",
     "deploy": "npm run build && gh-pages -d src"
   },
   "author": "",
